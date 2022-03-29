@@ -1,15 +1,46 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+    <title>03 - Class - 05</title>
 </head>
-
 <body>
-  Hello world
-</body>
+    <main>
 
+        <!-- CONTACT SECTION -->
+        <section class="contact" id="contact">
+            <form>
+                <div>
+                    <label for="fullName">Full Name:</label>
+                    <input type="text" name="fullName" id="fullName" placeholder="Full Name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                </div>
+                <div>
+                    <label for="subject">Subject:</label>
+                    <input type="text" name="subject" id="subject" placeholder="Subject">
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea placeholder="Message" required></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Send Message">
+                    <input type="reset" value="Clear">
+                </div>
+            </form>
+        </section>
+
+        <!-- This is a comment -->
+    </main>
+    <footer id="footer" class="footer">
+      &copy; <span>Your Site Name.</span> All Rights reserved.
+      Designed by <span> Gustavo Freitas</span>
+    </footer>
+</body>
 </html>
