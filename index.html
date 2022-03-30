@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./css/style.css" rel="stylesheet" type="text/css" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
     <title>03 - Class - 05</title>
+
 </head>
 <body>
     <main>
+
+        <!-- EDUCATION SECTION -->
+        <section class="education" id="education">
+
+        </section>
 
         <!-- CONTACT SECTION -->
         <section class="contact" id="contact">
@@ -29,9 +37,9 @@
                     <label for="message">Message:</label>
                     <textarea placeholder="Message" required></textarea>
                 </div>
-                <div>
-                    <input type="submit" value="Send Message">
-                    <input type="reset" value="Clear">
+                <div class="d-flex">
+                    <input type="submit" value="Send Message" class="btn">
+                    <input type="reset" value="Clear" class="btn">
                 </div>
             </form>
         </section>
@@ -42,5 +50,9 @@
       &copy; <span>Your Site Name.</span> All Rights reserved.
       Designed by <span> Gustavo Freitas</span>
     </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" defer></script>
+
 </body>
 </html>
