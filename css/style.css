@@ -23,6 +23,45 @@
         border-bottom: 3px solid steelblue;
     }
 
+    .skills {
+        flex-direction: column;
+        row-gap: 5vh;
+    }
+
+    #skills > div > aside {
+        width: 15vh;
+        height: 15vh;
+        padding: 15%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #html-5 > aside {
+        background: url("/img/html-5.png");
+    }
+
+    
+    #css > aside {
+        background: url("/img/css.png");
+    }
+
+    #javascript > aside {
+        background: url("/img/javascript.png");
+    }
+
+    #sass > aside {
+        background: url("/img/sass.png");
+    }
+
+    #github > aside {
+        background: url("/img/github.png");
+    }
+
+    #github > p {
+        padding-left: 4%;
+    }
+
     .education {
         display: flex;
         flex-direction: column;
