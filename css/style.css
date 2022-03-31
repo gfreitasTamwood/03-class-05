@@ -24,6 +24,10 @@
         text-transform: uppercase;
     }
 
+    .about > p {
+        padding: 3%;
+    }
+
     .work-experience {
         flex-direction: column;
         row-gap: 5vh;
