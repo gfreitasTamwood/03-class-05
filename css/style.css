@@ -24,6 +24,26 @@
         text-transform: uppercase;
     }
 
+    .about > p {
+        padding: 3%;
+    }
+
+    .work-experience {
+        flex-direction: column;
+        row-gap: 5vh;
+    }
+
+    .work-experience h3 {
+        font-weight: 600;
+        color: darkslategray;
+    }
+
+    .work-experience > article {
+        border: 2px solid lightgray;
+        border-radius: 10px;
+        padding: 2%;
+    }
+
     .skills {
         flex-direction: column;
         row-gap: 5vh;
