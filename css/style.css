@@ -274,6 +274,17 @@
 
 @media (min-width: 1000px) {
 
+    .skills > div{
+        width: 80%;
+        padding-left: 5%;
+    }
+
+    #skills > div > aside {
+        background-size: contain;
+        width: 20%;
+        padding: 5%;
+    }
+
     .education .card {
         width: 20%;
     }
