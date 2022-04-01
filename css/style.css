@@ -215,6 +215,31 @@
     }
 }
 
+@media (min-width: 700px) {
+
+    .contact {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact > form {
+        width: 80%;
+    }
+
+    .contact > form > div {
+        padding: 1%;
+    }
+
+    .contact label {
+        width: 30%;
+    }
+
+    .contact [type="text"],[type="email"]{
+        width: 60%;
+        padding: 1%;
+    }
+}
+
 /*
 1 - Plan the sections from your page
 a) Footer
