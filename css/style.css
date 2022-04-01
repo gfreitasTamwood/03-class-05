@@ -274,6 +274,11 @@
 
 @media (min-width: 1000px) {
 
+    .about > p {
+        width: 90%;
+        padding-top: 0%;
+    }
+
     .work-experience {
         display: flex;
         flex-direction: row;
