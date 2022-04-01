@@ -273,6 +273,11 @@
 }
 
 @media (min-width: 1000px) {
+
+    .education .card {
+        width: 20%;
+    }
+
     .footer {
         padding: 3%;
     }
