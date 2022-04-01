@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 @media (min-width: 300px) {
 
     body {
@@ -235,6 +239,41 @@
 }
 
 @media (min-width: 1000px) {
+
+    .navigation-menu {
+        display: block !important;
+        width: 94%;
+        position: fixed;
+        height: 15vh;
+        z-index: 1;
+    }
+
+    .navigation-menu > ul {
+        padding: 0;
+        list-style-type: none;
+        justify-content: space-evenly;
+    }
+
+    .navigation-menu li {
+        width: 100%;
+        display: flex;        
+    }
+
+    .navigation-menu a {
+        width: 100%;
+        padding: 5%;
+        text-align: center;
+        
+        text-decoration: none;
+        background-color: rgba(100,100,100,.5);
+        color: whitesmoke;
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .navigation-menu a:hover {
+        background-color: steelblue;
+    }
 
     [class*="bg-"] {
         width: 100%;
