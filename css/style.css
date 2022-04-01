@@ -215,6 +215,111 @@
     }
 }
 
+
+
+@media (min-width: 700px) {
+
+    .about > p{
+        line-height:1.5;
+        font-size:24px;
+        padding-bottom:0%;
+
+    }
+
+    .skills > div > p{
+        align-items: center;
+        display: flex;
+    }
+
+    .skills p{
+        font-size:24px;
+    }
+
+
+
+    .education{
+        flex-direction: row;
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+        /* column-gap:10vh; */
+    }
+
+    .education > .card{
+        width:40%;
+    }
+
+    .education aside{
+        padding:0%;
+        width:100%;
+    }
+
+    .contact{
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+    }
+
+    .contact > form{
+        width:80%;
+    }
+
+    .contact > form > div {
+        padding:1%;
+    }
+    .contact label{
+        width:30%;
+    }
+
+    .contact [type="text"], [type="email"]{
+        width:60%;
+        padding:1%;
+
+    }
+
+
+}
+
+
+@media (min-width:1000px){
+
+    .about > p{
+        width:85%;
+        padding-top:0;
+    }
+
+    .work-experience {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .work-experience article{
+        width:30%;
+        font-size:18px;
+    }
+
+    .skills > div{
+        width:90%;
+        padding-left:5%;
+    }
+
+    #skills > div >  aside{
+        background-size:contain;
+        width:13%;
+        padding:5%;
+    }
+
+
+    .education .card{
+        width:20%;
+    }
+
+
+    .footer{
+        padding:3%;
+    }
+}
+
 /*
 1 - Plan the sections from your page
 a) Footer
