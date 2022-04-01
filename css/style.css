@@ -217,7 +217,24 @@
 
 @media (min-width: 700px) {
 
+    .education {
+        justify-content: space-evenly;
+        /* column-gap: 10vh; */
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .education > .card {
+        width: 40%;
+    }
+
+    .education aside {
+        padding: 0%;
+        width: 100%;
+    }
+
     .contact {
+        display: flex;
         flex-direction: column;
         align-items: center;
     }
