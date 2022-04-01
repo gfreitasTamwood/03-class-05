@@ -62,49 +62,11 @@
         background: url("/img/html-5.png");
     }
 
-    #projectone p {
+    #projectone p, #projecttwo p, #projectthree p {
         line-height: 2;
     }
 
-    #projectone > div > aside {
-        margin-right: 3%;
-        margin-bottom: 0.5%;
-        float: left;
-        width: 15vh;
-        height: 15vh;
-        color: white;
-        font-weight: 600;
-        background-color: gray;
-        
-        display: flex;
-        text-align: center;
-        align-items: center;
-    }
-
-    #projecttwo p {
-        line-height: 2;
-    }
-
-    #projecttwo > div > aside {
-        margin-right: 3%;
-        margin-bottom: 0.5%;
-        float: left;
-        width: 15vh;
-        height: 15vh;
-        color: white;
-        font-weight: 600;
-        background-color: gray;
-        
-        display: flex;
-        text-align: center;
-        align-items: center;
-    }
-
-    #projectthree p {
-        line-height: 2;
-    }
-
-    #projectthree > div > aside {
+    #projectone > div > aside, #projecttwo > div > aside,  #projectthree > div > aside{
         margin-right: 3%;
         margin-bottom: 0.5%;
         float: left;
@@ -274,6 +236,32 @@
 
 @media (min-width: 1000px) {
 
+    [class*="bg-"] {
+        width: 100%;
+        height: 45vh;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .bg-1 {
+        background: url("/img/xml-bg.jpg");
+    }
+
+    .bg-2 {
+        background: url("/img/react-bg.jpg");
+    }
+
+    .bg-3 {
+        background: url("/img/scss-bg.jpg");
+    }
+
+    .about, .projects, .skills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .about > p {
         width: 90%;
         padding-top: 0%;
@@ -289,6 +277,10 @@
     .work-experience > article{
         width: 30%;
         font-size: 20px;
+    }
+
+    .accordion {
+        width: 80%;
     }
 
     .skills > div{
